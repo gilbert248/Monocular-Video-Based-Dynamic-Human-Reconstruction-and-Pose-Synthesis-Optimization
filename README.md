@@ -6,6 +6,7 @@
 <img width="608" height="242" alt="第一章工作示例3" src="https://github.com/user-attachments/assets/3265805d-cdb5-456a-abbe-9c17185e41a3" />
 <img width="1097" height="125" alt="第四章工作示例4" src="https://github.com/user-attachments/assets/83994856-c5dc-426b-80ab-b0ac7655fa0d" />
 
+gif动图：
 <img src="./docs/output_groundtruth_seattle.gif" alt="视频输入" width="500" height="300">
 
 视频输入：
