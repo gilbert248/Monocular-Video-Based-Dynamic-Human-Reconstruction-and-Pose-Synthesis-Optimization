@@ -10,7 +10,7 @@
 <img src="./docs/output_groundtruth_seattle.gif" alt="视频输入" width="500" height="300">
 
 三维人体输出：
-<img src="./docs/cano_output_ours_seattle.gif" alt="视频输入" width="500" height="300">
+<img src="./docs/cano_output_ours_seattle.gif" alt="视频输入" width="500" height="500">
 
 参考动作示例：
 <img src="./docs/output_groundtruth_bike.gif" alt="视频输入" width="500" height="300">
@@ -19,6 +19,6 @@
 <img src="./docs/output_seattle_bike_bike-train.gif" alt="视频输入" width="500" height="300">
 
 方法 VS 基准方法HUGS输出（CVPR2024）：
-<img src="./docs/cano_output_ours_seattle.gif" alt="视频输入" width="500" height="300">
-<img src="./docs/cano_output_hugs_seattle.gif" alt="视频输入" width="500" height="300">
+<img src="./docs/cano_output_ours_seattle.gif" alt="视频输入" width="250" height="250">
+<img src="./docs/cano_output_hugs_seattle.gif" alt="视频输入" width="250" height="250">
 
