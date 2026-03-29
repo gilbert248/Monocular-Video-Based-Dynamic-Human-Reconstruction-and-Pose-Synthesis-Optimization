@@ -7,7 +7,6 @@
 <img width="1097" height="125" alt="第四章工作示例4" src="https://github.com/user-attachments/assets/83994856-c5dc-426b-80ab-b0ac7655fa0d" />
 
 视频输入：  
-
 <img src="./docs/output_groundtruth_seattle.gif" alt="视频输入" width="500" height="300">
 
 三维人体输出：
