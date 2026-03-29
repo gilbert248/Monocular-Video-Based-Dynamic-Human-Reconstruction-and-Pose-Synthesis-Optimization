@@ -1,1 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>流程演示</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 32px;
+      background: #0d1117;
+      color: #e6edf3;
+    }
 
+    h1 {
+      margin-bottom: 24px;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: 1fr 80px 1fr 80px 1fr;
+      gap: 16px;
+      align-items: center;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .node {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,.25);
+    }
+
+    .node h2 {
+      font-size: 18px;
+      margin: 0 0 12px 0;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+      background: #000;
+    }
+
+    .arrow {
+      text-align: center;
+      font-size: 42px;
+      color: #58a6ff;
+      user-select: none;
+    }
+
+    .desc {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #9da7b3;
+    }
+
+    @media (max-width: 980px) {
+      .flow {
+        grid-template-columns: 1fr;
+      }
+
+      .arrow {
+        transform: rotate(90deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>产品流程演示</h1>
+
+  <div class="flow">
+    <div class="node">
+      <h2>步骤 1：上传</h2>
+      <video controls preload="metadata">
+        <source src="./demo1.mp4" type="video/mp4" />
+      </video>
+      <div class="desc">用户上传文件，系统进行初步校验。</div>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <div class="node">
+      <h2>步骤 2：解析</h2>
+      <video controls preload="metadata">
+        <source src="./demo2.mp4" type="video/mp4" />
+      </video>
+      <div class="desc">后端解析内容并返回结构化结果。</div>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <div class="node">
+      <h2>步骤 3：生成结果</h2>
+      <video controls preload="metadata">
+        <source src="./demo3.mp4" type="video/mp4" />
+      </video>
+      <div class="desc">系统生成最终页面并支持导出。</div>
+    </div>
+  </div>
+</body>
+</html>
