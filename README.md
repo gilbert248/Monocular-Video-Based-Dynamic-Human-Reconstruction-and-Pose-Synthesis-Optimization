@@ -1,4 +1,4 @@
-<img width="202" height="421" alt="image" src="https://github.com/user-attachments/assets/00f77872-f4ea-4de5-8902-8d59a22f0904" /># Monocular-Video-Based-Dynamic-Human-Reconstruction-and-Pose-Synthesis-Optimization
+# Monocular-Video-Based-Dynamic-Human-Reconstruction-and-Pose-Synthesis-Optimization
 代码保存 + demo示例
 
 该工作已被第41届中国自动化学会青年学术年会（2026 41st Youth Academic Annual Conference of Chinese Association of Automation, YAC）录用
